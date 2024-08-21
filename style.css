@@ -1,0 +1,47 @@
+body {
+  background-image: url("spt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0%;
+  padding: 0%;
+}
+.head {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+.btns {
+  color: grey;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.btns:hover {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+}
+a:active {
+  text-decoration: none;
+  color: grey;
+}
